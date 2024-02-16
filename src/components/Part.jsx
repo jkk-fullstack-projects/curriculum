@@ -1,6 +1,6 @@
 const Part = ({ part }) => {
     return (
-      <p>{part.name} {part.exercises}</p>
+      <p className="font-semibold">{part.name} {part.exercises}</p>
     );
   };
 
